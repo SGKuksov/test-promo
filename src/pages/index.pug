@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1')
+
+        title Promo Core v#{ pkg.version }
+
+        link(rel='stylesheet' href='./main.min.css?v=' + pkg.version)
+
+        link(rel='prefetch' href='../main.min.js?v='  + pkg.version)
+
+    body
+        center
+            h1 Hello, World!
+            span ヾ( °-°)シﾟ`･｡･°*♪･ﾟ’☆
+            br
+            br
+            a(href='/docs') Docs
+
+        script(src='./main.min.js?v=' + pkg.version)
+
